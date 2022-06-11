@@ -11,6 +11,13 @@ import time
 import threading
 import schedule
 
+BOT_TOKEN = "5425412029:AAF0w7xKZ_2oRkP7PsdARn7Qpkb28X79_JI"
+
+API_HASH = "ce7aec4e1c0a3f0edf83396ab5d58e94"
+
+API_ID = "7917796"
+
+USERBOT_SESSION = "1BVtsOGgBuzvbZdfd9OuM_ug8xBtJxjUC8RV43GPEumUg32E2VgUUBkEovExGXtmw6Ejwp00eUt8rCS83uydHPjt2vPgqB_QpM9aDFhGVnkYWwkh_YKx2gQEcviQVPoldvXOV5lQ82fu4PqxphJTEcGXW__jNY2wK1mjBvk0PDUAbkBG8_DUIm1T-yckS2EkrMv7tD-774LYcJGqGVcXwDm8M59B7RBnEgfrNqLtbuYjliTX3rXUdP-Dj0gmyK2p4rX8ReI1DhYCGuVozTkKGpIyP3dnvhGxhVPI7nl-4r0NzIqjzLBH7_okVee6Msno0xOvnjBBhfN4bfXFxk2XB_3v3EIxnhYo="
 
 async def shutdown(signal, loop):
     try:
